@@ -1,0 +1,16 @@
+import os from 'os';
+const BYTES_IN_MB = 1048576;
+const SECONDS_IN_HOURS = 60 * 60;
+console.log('Core :>> ', os.cpus());
+// console.log('Network :>> ', os.networkInterfaces());
+console.log('User :>> ', os.userInfo());
+console.log('Free memory :>> ', os.freemem() / BYTES_IN_MB, 'MB');
+console.log('Total memory :>> ', os.totalmem() / BYTES_IN_MB, 'MB');
+console.log('Home directory :>> ', os.homedir());
+console.log('Temp directory :>> ', os.tmpdir());
+console.log('HostName :>> ', os.hostname());
+console.log('Platform :>> ', os.platform());
+console.log('Version :>> ', os.version());
+console.log('Release :>> ', os.release());
+console.log('Architecture :>> ', os.arch());
+console.log('Uptime :>> ', os.uptime() / SECONDS_IN_HOURS);

@@ -8,7 +8,13 @@
     "nocheck",
     "paren"
   ],
-  "js/ts.implicitProjectConfig.checkJs": true,
   "editor.formatOnSave": true,
-  "files.autoSave": "onFocusChange"
+  "files.autoSave": "onFocusChange",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "js/ts.implicitProjectConfig.strictNullChecks": true,
+  "js/ts.implicitProjectConfig.strictFunctionTypes": true,
+  "js/ts.implicitProjectConfig.experimentalDecorators": true,
+  "js/ts.implicitProjectConfig.module": "System",
+  "js/ts.implicitProjectConfig.target": "ES2022",
+  "js/ts.implicitProjectConfig.checkJs": true
 }
