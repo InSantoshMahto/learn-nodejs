@@ -1,0 +1,13 @@
+lockfileVersion: 5.3
+
+specifiers:
+  sqlite: ^4.0.25
+
+dependencies:
+  sqlite: 4.0.25
+
+packages:
+
+  /sqlite/4.0.25:
+    resolution: {integrity: sha512-gqCEcLF8FOTeW/na3SRYWLQkw2jZXgVj1DdgRJbm0jvrhnUgBIuNDUUm649AnBNDNHhI5XskwT8dvc8vearRLQ==}
+    dev: false
