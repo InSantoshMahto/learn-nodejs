@@ -1,0 +1,24 @@
+{
+  "name": "twilio",
+  "version": "1.0.0",
+  "description": "learn whatsapp api",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "NODE_ENV=production node index.js",
+    "dev": "NODE_ENV=development nodemon index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "notify"
+  ],
+  "author": "InSantoshMahto",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "twilio": "^3.76.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
